@@ -1,0 +1,131 @@
+@media (max-width: 1090px) {
+    .container {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .header__container {
+        width: 100%;
+        min-width: 100%;
+    }
+
+    .clients__container {
+        padding: 40px 20px 0 20px;
+    }
+
+    .table__id-width {
+        width: 12%;
+    }
+
+    .table__fullname-width {
+        width: 24.5%;
+    }
+
+    .table__created-date-width {
+        width: 14.5%;
+    }
+
+    .clients__created-date,
+    .clients__changes {
+        padding-right: 15px;
+    }
+
+    .table__changes-date-width {
+        width: 14.5%;
+    }
+
+    .table__contacts-width {
+        width: 15.5%;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .table__id-width {
+        width: 15%;
+    }
+
+    .table__fullname-width {
+        width: 26%;
+    }
+
+    .cli .table__created-date-width {
+        width: 14%;
+    }
+
+    .table__changes-date-width {
+        width: 14%;
+    }
+
+    .table__contacts-width {
+        gap: 7px;
+        width: 18%;
+        max-width: 140px !important;
+    }
+
+    .table__actions-width {
+        width: 11%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .header__link {
+        width: 24px;
+        height: 24px;
+        font-size: 0;
+    }
+
+    .header__container {
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0;
+        height: 40px;
+    }
+
+    .header__input {
+        position: absolute;
+        display: none;
+        width: 0;
+        height: 0;
+        visibility: hidden;
+    }
+
+    .header__link-img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .clients__container {
+        padding: 30px 10px 0 10px;
+    }
+
+    .main-title {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 25px;
+    }
+
+    .table__id-width {
+        width: 110px;
+    }
+
+    .table__fullname-width {
+        width: 185px;
+    }
+
+    .cli .table__created-date-width {
+        width: 105px;
+    }
+
+    .table__changes-date-width {
+        width: 105px;
+    }
+
+    .table__contacts-width {
+        width: 130px;
+    }
+
+    .table__actions-width {
+        width: 100px;
+    }
+}
